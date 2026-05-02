@@ -22,9 +22,9 @@ basic.forever(function () {
             # . . . .
             # # . . .
             `)
-        pins.analogWritePin(AnalogPin.P15, vero)
+        pins.analogWritePin(AnalogPin.P16, vero)
         basic.pause(5000)
     }
-    pins.analogWritePin(AnalogPin.P15, zero)
+    pins.analogWritePin(AnalogPin.P16, zero)
     basic.pause(1000)
 })
